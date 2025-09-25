@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  padding: 40px 40px 0px 40px;
+  background: #fdfdfd;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  gap: 40px;
+}
+.Divide{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.container{ 
+  gap: 70px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 45px;
+  border-radius: 21px;
+  background: #f3f3f3;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.main-title {
+    padding: 0px 0px 0px 0px;
+    font-size: 47px;
+    max-width: 350px;
+    text-align: center;
+    color: #1f2749;
+}
+
+.description {
+max-width: 420px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1b3192;
+  
+}
+
+.button_place{ 
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+ 
+
+  border-radius: 21px;
+}
+
+
+.button {
+  padding: 12px 28px;
+  background: #4143b8;
+  color: white;
+  border-radius: 15px;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center
+}
+
+.button:hover {
+  padding: 12px 28px;
+  background: #5b5db9;
+  color: white;
+  border-radius: 15px;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center
+}
+
+.button:active {
+  padding: 12px 28px;
+  background: #2f30585b;
+  color: white;
+  border-radius: 15px;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center
+}
+
+.Photo{ 
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 24px;
+}
